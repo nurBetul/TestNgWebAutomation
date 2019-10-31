@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Hw8">
+    <test name="Set1">
+        <groups>
+            <run>
+                <include name="compatibility"></include>
+            </run>
+        </groups>
+        <classes>
+            <class name="Hw8Class1"></class>
+            <class name="Hw8Class2"></class>
+            <class name="Hw8Class3"></class>
+            <class name="Hw8Class4"></class>
+        </classes>
+    </test>
+</suite>
+

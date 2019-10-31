@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Homework 10">
+    <parameter name="url" value="http://www.google.com"></parameter>
+    <test name="Set1">
+        <classes>
+            <class name="Hw10Class"></class>
+        </classes>
+    </test>
+</suite>

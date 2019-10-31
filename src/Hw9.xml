@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Hw9">
+    <test name="Set2">
+        <classes>
+            <class name="Hw9Class"></class>
+        </classes>
+    </test>
+</suite>

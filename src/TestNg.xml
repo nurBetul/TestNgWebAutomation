@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="All Test cases">
+    <parameter name="url" value="http://www.myapplication.com"/>
+    <parameter name="username" value="user1"></parameter>
+    <parameter name="password" value="password"></parameter>
+
+    <test name="FullExecutionOrder">
+        <classes>
+            <class name="Login"></class>
+            <class name="Credit"></class>
+            <class name="Payment"></class>
+            <class name="Loan"></class>
+        </classes>
+
+
+    </test>
+
+</suite>
+

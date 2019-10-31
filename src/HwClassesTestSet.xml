@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="My Test Set suite">
+
+    <groups>
+        <run>
+            <include name="smoketest"/>
+        </run>
+    </groups>
+
+    <test name="AllClasses">
+        <classes>
+            <class name="HwClass1"/>
+            <class name="HwClass2"/>
+            <class name="HwClass3"/>
+            <class name="HwClass4"/>
+        </classes>
+    </test>
+</suite>
